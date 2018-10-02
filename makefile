@@ -1,7 +1,7 @@
-hello: Hello.o
+All: Hello.o
 	gcc Hello.o
 
-strings.o: Hello.c
+Hello.o: Hello.c
 	gcc -c Hello.c
 
 run:
